@@ -20,10 +20,10 @@ python main.py <target_dir> ...
 用法举例:
 - `-k relpath total`: 只打印文件路径和价税合计两列
 - `-q buyer~深圳`: 只打印 buyer 值包含“深圳”的数据
-- `-q date=20240709`: 只打印 date 等于“20240709”的数据
+- `-q date=20240709`: 只打印 date 值等于“20240709”的数据
 - `-q buyer~深圳 date=20240709`: 指定多个查询条件时取交集
-- `-s date`: 按 date 列升序打印
-- `-s date-`: 按 date 列降序打印
+- `-s date`: 按 date 值升序打印
+- `-s date-`: 按 date 值降序打印
 - `-z`: 打印列同时显示中文含义
 
 其他参数：
