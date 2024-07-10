@@ -156,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--sort", dest="sort_key", help="排序，例如 '-s date' 表示从小到大，'-s date-' 表示从大到小")
     parser.add_argument("-z", "--show-zh", action="store_true", dest="show_zh", help="打印列显示中文名称")
     parser.add_argument("--rename", dest="rename", action="store_true", help="重命名文件")
-    parser.add_argument("--rename-format", dest="rename_format", default="{buyer}-{date}-{uid}-{total}", help="文件重命名格式")
+    parser.add_argument("--rename-format", dest="rename_format", default="{buyer}-{date}-{uid}-{total}", help="文件重命名格式（默认为 '{buyer}-{date}-{uid}-{total}'）")
     parser.add_argument("--remake-cache", dest="remake_cache", action="store_true", help="重新生成缓存")
     args = parser.parse_args()
     if len(sys.argv) == 1:
