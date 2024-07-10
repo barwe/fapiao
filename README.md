@@ -1,6 +1,6 @@
 依赖:
 ```bash
-python -m pip instal -i https://pypi.tuna.tsinghua.edu.cn/simple prettytable pdfplumber
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple prettytable pdfplumber
 ```
 
 基本用法：
